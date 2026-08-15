@@ -6,18 +6,18 @@
   <title>Rock Paper Scissors</title>
   <link rel="stylesheet" href="./src/output.css">
 </head>
-<body class="bg-teal-100">
-  <h1 class="text-3xl font-bold text-amber-900 text-center mt-10">
+<body class="bg-teal-600">
+  <h1 class="text-3xl font-bold text-yellow-200 font-serif text-center mt-10">
     Rock Paper Scissors
   </h1>
   <div class="flex items-center justify-center gap-10">
-    <button class="w-50 h-50 bg-amber-100 mt-20 choice" id="rockbtn">ROCK</button>
-    <button class="w-50 h-50 bg-amber-100 mt-20 choice" id="paperbtn">PAPER</button>
-    <button class="w-50 h-50 bg-amber-100 mt-20 choice" id="scibtn">SCISSORS</button>
+    <button class="w-50 h-50 bg-blue-500 mt-20 choice rounded-md hover:-translate-y-2 transition-transform font-bold" id="rockbtn"> <img src="./imgs/roc.png" alt="Rock" class="w-full h-full object-cover-20 rounded-md hover:-translate-y-2 transition-transform">ROCK</button>
+    <button class="w-50 h-50 bg-blue-500 mt-20 choice rounded-md hover:-translate-y-2 transition-transform font-bold" id="paperbtn"><img src="./imgs/pap.png" alt="Rock" class="w-full h-full object-cover-30 rounded-md hover:-translate-y-2 transition-transform">PAPER</button>
+    <button class="w-50 h-50 bg-blue-500 mt-20 choice rounded-md hover:-translate-y-2 transition-transform font-bold" id="scibtn"><img src="./imgs/sci.png" alt="Rock" class="w-full h-full object-cover-48 rounded-md hover:-translate-y-2 transition-transform">SCISSORS</button>
   </div>
-  <h2 class="bg-teal-50 w-90 text-xl text-center font-bold mx-auto mt-10" id="turns">Your Turn</h2>
-  <div class="text-center mt-10 hidden" id="winmsg">Winner/Looser</div>
-  <button class="block mx-auto mt-10 hidden" id="newgame">NEW GAME</button>
+  <h2 class=" w-90 text-xl text-center font-bold font-serif mx-auto mt-15 text-yellow-200" id="turns">Your Turn</h2>
+  <div class="text-center mt-10 hidden text-yellow-200 text-xl font-bold font-serif" id="winmsg">Winner/Looser</div>
+  <button class="block mx-auto mt-5 hidden w-50 text-serif font-bold bg-amber-200 border-2" id="newgame">NEW GAME</button>
   <script src="script.js"></script>
 </body>
 </html>
